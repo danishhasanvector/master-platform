@@ -1,0 +1,12 @@
+[submodule "bitget-rust-4"]
+	path = bitget-rust-4
+	url = git@github.com:danishhasanvector/bitget-rust.git
+[submodule "bitmex-rust"]
+	path = bitmex-rust
+	url = git@github.com:danishhasanvector/bitmex-rust.git
+[submodule "cdcom-rust"]
+	path = cdcom-rust
+	url = git@github.com:whitesquirecapital/cdcom-rust.git
+[submodule "rust-mda"]
+	path = rust-mda
+	url = https://github.com/whitesquirecapital/rust-mda

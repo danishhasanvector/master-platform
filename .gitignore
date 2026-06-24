@@ -1,0 +1,149 @@
+# =============================================================================
+# Build Artifacts / Binaries
+# =============================================================================
+target/
+**/target/
+debug/
+release/
+build/
+dist/
+out/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.rlib
+*.rmeta
+*.profraw
+*.profdata
+
+# Common local binaries
+exchange-harness
+*/exchange-harness
+*-mm
+*-mm-sub*
+trading-engine
+monitor
+
+# =============================================================================
+# Logs / Runtime State
+# =============================================================================
+*.log
+*.log.*
+*.out
+*.err
+*.pid
+*.journal
+nohup.out
+logs/
+log/
+run/
+tmp/
+temp/
+cache/
+*.tmp
+*.temp
+
+# Trading/runtime output
+trades.csv
+trades.log
+orderLogs/
+cancellation_log.json
+fair_basis_stats.json
+bitmex_fair_stats.json
+*.mmap
+
+# =============================================================================
+# Data / Databases / Local Outputs
+# =============================================================================
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.csv.gz
+*.jsonl.gz
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+.eggs/
+wheels/
+
+# =============================================================================
+# Environment / Secrets / Local Config
+# =============================================================================
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+id_rsa
+id_rsa.pub
+secrets/
+secret/
+credentials.json
+**/*secret*
+**/*credential*
+config.local.*
+*.local
+
+# Keep sample/template configs trackable.
+!*.sample
+!*.example
+
+# =============================================================================
+# Editor / OS Files
+# =============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================================================================
+# Generated / Local Project Folders
+# =============================================================================
+releases/
+downloads/
+cdcom-rust-forcopy/
+tools/livePublicTrades/
