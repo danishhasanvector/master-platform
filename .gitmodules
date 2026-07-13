@@ -1,5 +1,5 @@
-[submodule "bitget-rust-4"]
-	path = bitget-rust-4
+[submodule "bitget-rust"]
+	path = bitget-rust
 	url = git@github.com:danishhasanvector/bitget-rust.git
 [submodule "bitmex-rust"]
 	path = bitmex-rust
@@ -10,3 +10,6 @@
 [submodule "rust-mda"]
 	path = rust-mda
 	url = https://github.com/whitesquirecapital/rust-mda
+[submodule "binance-rust"]
+	path = binance-rust
+	url = git@github.com:danishhasanvector/binance-rust.git
