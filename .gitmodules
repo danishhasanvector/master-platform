@@ -13,3 +13,6 @@
 [submodule "binance-rust"]
 	path = binance-rust
 	url = git@github.com:danishhasanvector/binance-rust.git
+[submodule "prometheus-telemetry-39k"]
+	path = prometheus-telemetry-39k
+	url = git@github.com:whitesquirecapital/prometheus-telemetry-39k.git
