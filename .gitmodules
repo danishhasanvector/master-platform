@@ -9,7 +9,7 @@
 	url = git@github.com:whitesquirecapital/cdcom-rust.git
 [submodule "rust-mda"]
 	path = rust-mda
-	url = https://github.com/whitesquirecapital/rust-mda
+	url = git@github.com:whitesquirecapital/rust-mda.git
 [submodule "binance-rust"]
 	path = binance-rust
 	url = git@github.com:danishhasanvector/binance-rust.git
