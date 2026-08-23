@@ -16,3 +16,6 @@
 [submodule "prometheus-telemetry-39k"]
 	path = prometheus-telemetry-39k
 	url = git@github.com:whitesquirecapital/prometheus-telemetry-39k.git
+[submodule "bitvavo_rust"]
+	path = bitvavo_rust
+	url = git@github.com:whitesquirecapital/bitvavo_rust.git
