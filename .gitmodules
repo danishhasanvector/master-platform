@@ -10,6 +10,7 @@
 [submodule "rust-mda"]
 	path = rust-mda
 	url = git@github.com:whitesquirecapital/rust-mda.git
+	branch = bitvavo_v2.0
 [submodule "binance-rust"]
 	path = binance-rust
 	url = git@github.com:danishhasanvector/binance-rust.git
@@ -19,3 +20,8 @@
 [submodule "bitvavo_rust"]
 	path = bitvavo_rust
 	url = git@github.com:whitesquirecapital/bitvavo_rust.git
+	branch = spot_mm_v2.0
+[submodule "wsc-py"]
+	path = wsc-py
+	url = git@github.com:danishhasanvector/wsc-py.git
+	branch = danish_v1.0
