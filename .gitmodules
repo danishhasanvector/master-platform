@@ -25,3 +25,7 @@
 	path = wsc-py
 	url = git@github.com:danishhasanvector/wsc-py.git
 	branch = danish_v1.0
+[submodule "kraken_rust"]
+	path = kraken_rust
+	url = git@github.com:danishhasanvector/kraken_rust.git
+	branch = kraken_v1.0
